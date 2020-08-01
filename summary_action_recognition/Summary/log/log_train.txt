@@ -1,0 +1,134 @@
+==========
+Args:Namespace(beta=0.01, dataset='datasets/UCF101.h5', evaluate=False, gamma=0.1, gpu='0', hidden_dim=256, input_dim=1024, lr=0.001, max_epoch=60, metric=None, num_episode=5, num_layers=1, resume='', rnn_cell='lstm', save_dir='log', save_results=False, seed=1, split='datasets/UCF101.json', split_id=0, stepsize=30, use_cpu=False, verbose=False, weight_decay=1e-05)
+==========
+Currently using CPU
+Initialize dataset datasets/UCF101.h5
+# total videos 23. # train videos 19. # test videos 4
+Initialize model
+Model size: 2.62605M
+==> Start training
+epoch 1/60	 reward 0.49596187629197774	
+epoch 2/60	 reward 0.4958696688476362	
+epoch 3/60	 reward 0.4959136746431652	
+epoch 4/60	 reward 0.49607711308880853	
+epoch 5/60	 reward 0.49607488136542466	
+epoch 6/60	 reward 0.4960140516883449	
+epoch 7/60	 reward 0.49604771607800535	
+epoch 8/60	 reward 0.49597208688133637	
+epoch 9/60	 reward 0.4961627088095013	
+epoch 10/60	 reward 0.49593906747667416	
+[4;33mReloaded modules[24m: utils, models, rewards, vsum_tools, knapsack[0m
+PATH ApplyEyeMakeup/14.jpg
+PATH ApplyEyeMakeup/14.jpg
+PATH ApplyEyeMakeup/15.jpg
+PATH ApplyEyeMakeup/16.jpg
+PATH ApplyEyeMakeup/17.jpg
+PATH ApplyEyeMakeup/18.jpg
+PATH ApplyEyeMakeup/19.jpg
+PATH ApplyEyeMakeup/20.jpg
+PATH ApplyEyeMakeup/21.jpg
+PATH ApplyEyeMakeup/22.jpg
+PATH ApplyEyeMakeup/23.jpg
+PATH ApplyEyeMakeup/24.jpg
+PATH ApplyEyeMakeup/25.jpg
+PATH ApplyEyeMakeup/35.jpg
+PATH ApplyEyeMakeup/36.jpg
+PATH ApplyEyeMakeup/37.jpg
+PATH ApplyEyeMakeup/38.jpg
+PATH ApplyEyeMakeup/72.jpg
+PATH ApplyEyeMakeup/73.jpg
+PATH ApplyEyeMakeup/74.jpg
+PATH ApplyEyeMakeup/75.jpg
+PATH ApplyEyeMakeup/85.jpg
+PATH ApplyEyeMakeup/86.jpg
+PATH ApplyEyeMakeup/87.jpg
+PATH ApplyEyeMakeup/88.jpg
+PATH ApplyEyeMakeup/89.jpg
+PATH ApplyEyeMakeup/90.jpg
+PATH ApplyEyeMakeup/91.jpg
+PATH ApplyEyeMakeup/92.jpg
+PATH ApplyEyeMakeup/93.jpg
+PATH ApplyEyeMakeup/122.jpg
+PATH ApplyEyeMakeup/123.jpg
+PATH ApplyEyeMakeup/124.jpg
+PATH ApplyEyeMakeup/125.jpg
+PATH ApplyEyeMakeup/126.jpg
+PATH ApplyEyeMakeup/127.jpg
+PATH ApplyEyeMakeup/128.jpg
+PATH ApplyEyeMakeup/129.jpg
+PATH ApplyEyeMakeup/14.jpg
+PATH ApplyEyeMakeup/14.jpg
+PATH ApplyEyeMakeup/14.jpg
+PATH ApplyEyeMakeup/15.jpg
+PATH ApplyEyeMakeup/16.jpg
+PATH ApplyEyeMakeup/17.jpg
+PATH ApplyEyeMakeup/18.jpg
+PATH ApplyEyeMakeup/19.jpg
+PATH ApplyEyeMakeup/20.jpg
+PATH ApplyEyeMakeup/21.jpg
+PATH ApplyEyeMakeup/22.jpg
+PATH ApplyEyeMakeup/23.jpg
+PATH ApplyEyeMakeup/24.jpg
+PATH ApplyEyeMakeup/25.jpg
+PATH ApplyEyeMakeup/35.jpg
+PATH ApplyEyeMakeup/36.jpg
+PATH ApplyEyeMakeup/37.jpg
+PATH ApplyEyeMakeup/38.jpg
+PATH ApplyEyeMakeup/72.jpg
+PATH ApplyEyeMakeup/73.jpg
+PATH ApplyEyeMakeup/74.jpg
+PATH ApplyEyeMakeup/75.jpg
+PATH ApplyEyeMakeup/85.jpg
+PATH ApplyEyeMakeup/86.jpg
+PATH ApplyEyeMakeup/87.jpg
+PATH ApplyEyeMakeup/88.jpg
+PATH ApplyEyeMakeup/89.jpg
+PATH ApplyEyeMakeup/90.jpg
+PATH ApplyEyeMakeup/91.jpg
+PATH ApplyEyeMakeup/92.jpg
+PATH ApplyEyeMakeup/93.jpg
+PATH ApplyEyeMakeup/122.jpg
+PATH ApplyEyeMakeup/123.jpg
+PATH ApplyEyeMakeup/124.jpg
+PATH ApplyEyeMakeup/125.jpg
+PATH ApplyEyeMakeup/126.jpg
+PATH ApplyEyeMakeup/127.jpg
+PATH ApplyEyeMakeup/128.jpg
+PATH ApplyEyeMakeup/129.jpg
+PATH ApplyEyeMakeup/14.jpg
+PATH ApplyEyeMakeup/15.jpg
+PATH ApplyEyeMakeup/16.jpg
+PATH ApplyEyeMakeup/17.jpg
+PATH ApplyEyeMakeup/18.jpg
+PATH ApplyEyeMakeup/19.jpg
+PATH ApplyEyeMakeup/20.jpg
+PATH ApplyEyeMakeup/21.jpg
+PATH ApplyEyeMakeup/22.jpg
+PATH ApplyEyeMakeup/23.jpg
+PATH ApplyEyeMakeup/24.jpg
+PATH ApplyEyeMakeup/25.jpg
+PATH ApplyEyeMakeup/35.jpg
+PATH ApplyEyeMakeup/36.jpg
+PATH ApplyEyeMakeup/37.jpg
+PATH ApplyEyeMakeup/38.jpg
+PATH ApplyEyeMakeup/72.jpg
+PATH ApplyEyeMakeup/73.jpg
+PATH ApplyEyeMakeup/74.jpg
+PATH ApplyEyeMakeup/75.jpg
+PATH ApplyEyeMakeup/85.jpg
+PATH ApplyEyeMakeup/86.jpg
+PATH ApplyEyeMakeup/87.jpg
+PATH ApplyEyeMakeup/88.jpg
+PATH ApplyEyeMakeup/89.jpg
+PATH ApplyEyeMakeup/90.jpg
+PATH ApplyEyeMakeup/91.jpg
+PATH ApplyEyeMakeup/92.jpg
+PATH ApplyEyeMakeup/93.jpg
+PATH ApplyEyeMakeup/122.jpg
+PATH ApplyEyeMakeup/123.jpg
+PATH ApplyEyeMakeup/124.jpg
+PATH ApplyEyeMakeup/125.jpg
+PATH ApplyEyeMakeup/126.jpg
+PATH ApplyEyeMakeup/127.jpg
+PATH ApplyEyeMakeup/128.jpg
+PATH ApplyEyeMakeup/129.jpg

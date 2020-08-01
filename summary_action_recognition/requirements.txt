@@ -1,0 +1,7 @@
+future==0.18.2
+argparse
+h5py
+tabulate
+mpmath==1.1.0
+torchvision
+torch

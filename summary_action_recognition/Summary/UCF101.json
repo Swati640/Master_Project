@@ -1,0 +1,137 @@
+[
+    {
+        "train_keys": [
+            "Video_12",
+            "Video_13",
+            "Video_15",
+            "Video_17",
+            "Video_19",
+            "Video_2",
+            "Video_20",
+            "Video_21",
+            "Video_3",
+            "Video_6",
+            "Video_7"
+        ],
+        "test_keys": [
+            "Video_1",
+            "Video_10",
+            "Video_11",
+            "Video_14",
+            "Video_16",
+            "Video_18",
+            "Video_4",
+            "Video_5",
+            "Video_8",
+            "Video_9"
+        ]
+    },
+    {
+        "train_keys": [
+            "Video_1",
+            "Video_10",
+            "Video_13",
+            "Video_16",
+            "Video_17",
+            "Video_18",
+            "Video_20",
+            "Video_3",
+            "Video_5",
+            "Video_6",
+            "Video_8"
+        ],
+        "test_keys": [
+            "Video_11",
+            "Video_12",
+            "Video_14",
+            "Video_15",
+            "Video_19",
+            "Video_2",
+            "Video_21",
+            "Video_4",
+            "Video_7",
+            "Video_9"
+        ]
+    },
+    {
+        "train_keys": [
+            "Video_1",
+            "Video_12",
+            "Video_13",
+            "Video_15",
+            "Video_16",
+            "Video_2",
+            "Video_21",
+            "Video_3",
+            "Video_5",
+            "Video_7",
+            "Video_8"
+        ],
+        "test_keys": [
+            "Video_10",
+            "Video_11",
+            "Video_14",
+            "Video_17",
+            "Video_18",
+            "Video_19",
+            "Video_20",
+            "Video_4",
+            "Video_6",
+            "Video_9"
+        ]
+    },
+    {
+        "train_keys": [
+            "Video_10",
+            "Video_11",
+            "Video_14",
+            "Video_18",
+            "Video_19",
+            "Video_20",
+            "Video_21",
+            "Video_3",
+            "Video_4",
+            "Video_6",
+            "Video_7"
+        ],
+        "test_keys": [
+            "Video_1",
+            "Video_12",
+            "Video_13",
+            "Video_15",
+            "Video_16",
+            "Video_17",
+            "Video_2",
+            "Video_5",
+            "Video_8",
+            "Video_9"
+        ]
+    },
+    {
+        "train_keys": [
+            "Video_10",
+            "Video_11",
+            "Video_12",
+            "Video_14",
+            "Video_15",
+            "Video_16",
+            "Video_18",
+            "Video_20",
+            "Video_3",
+            "Video_4",
+            "Video_9"
+        ],
+        "test_keys": [
+            "Video_1",
+            "Video_13",
+            "Video_17",
+            "Video_19",
+            "Video_2",
+            "Video_21",
+            "Video_5",
+            "Video_6",
+            "Video_7",
+            "Video_8"
+        ]
+    }
+]
