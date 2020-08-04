@@ -6,6 +6,10 @@ Pull the image from docker hub for generating the dataset on your own dataset(It
 ```bash 
 docker pull swati640/generate_dataset:latest
 ```
+Run the docker container interactively.
+```bash 
+docker run -it swati640/generate_dataset /bin/bash
+```
 Pull this image from docker hub for the video summary and action recognition. It has all the required packages.
 ```bash 
 docker pull swati640/summary_actionrecognition:latest
