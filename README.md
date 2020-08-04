@@ -2,7 +2,7 @@
 
 ## Docker
 
-Pull the image from docker hub for generating the dataset on your own dataset(It Preprocess the videos' feature to H5 file). This image has all the required packages. It has the dependency on python 2.7 for certain libraries.
+Pull the image from docker hub for generating the dataset on your own dataset(It Preprocess the videos' feature to H5 file). This image has all the required packages. It has the dependency on `python 2.7 ` for certain libraries.
 ```bash 
 docker pull swati640/generate_dataset:latest
 ```
@@ -30,6 +30,23 @@ python main.py --dataset datasets/UCF101.h5 -s datasets/UCF101.json --gpu 0
 ```
 ## Visualize summary
 You can use `summary2video.py` to transform the binary `machine_summary` to real summary video. You need to have a directory containing video frames. The code will automatically write summary frames to a video where the frame rate can be controlled.
+python train.py --dataset_path data/UCF-101-frame
+# Action Recognition of the summarized Video
+Action Recognition of network generated video summaries is done through a bi-directional LSTM operating on frame embeddings extracted by a pre-trained ResNet-152 (ImageNet). The python environment is `bash python 3.6`. The complete UCF-101 is used for training the network
 ```bash
-python summary2video.py --path summe-split1/result.h5  --frm-dir ApplyEyeMakeup -i 1 --fps 7 --width 640 --height 480
+python train.py --dataset_path data/UCF-101-frame
 ```
+## Testing
+The testing is done on the summarized videos.
+```bash
+python test.py 
+```
+
+
+
+
+
+
+
+
+
