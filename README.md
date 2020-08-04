@@ -61,8 +61,6 @@ The testing is done on the summarized videos.
 ```bash
 python test.py 
 ```
-
-![flowdiagram](https://user-images.githubusercontent.com/45712497/89311139-e7669980-d675-11ea-9d30-6e12ebc6468b.jpg)
 ## Steps
 
 - UCF-101 video dataset(subset) is used to generate the summarized videos.
@@ -74,6 +72,7 @@ python test.py
 - The summarized videos are converted into frames(this work is done on complete UCF-101 dataset)
 - Frames are passed through another network to train the model to do activity recognition.
 - The trained model is used for activity recognition. The accuracy is around 75%
+![flowdiagram](https://user-images.githubusercontent.com/45712497/89311139-e7669980-d675-11ea-9d30-6e12ebc6468b.jpg)
 
 
 
