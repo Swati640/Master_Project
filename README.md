@@ -14,6 +14,11 @@ Pull this image from docker hub for the video summary and action recognition. It
 ```bash 
 docker pull swati640/summary_actionrecognition:latest
 ```
+This docker image
+- Create the split
+- Train the model
+- Create the summarized video
+- Train the model for action recognition(when the dataset directory is given)
 ## Download the data and preprocess it
 Download the data from [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php). The complete work is done on the subset of UCF101. Randomly 21 videos are selected from the complete dataset. 
 
