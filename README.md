@@ -8,7 +8,7 @@ docker pull swati640/generate_dataset:latest
 ```
 Pull this image from docker hub for the video summary and action recognition. It has all the required packages.
 ```bash 
-docker pull swati640/summary:latest
+docker pull swati640/summary_actionrecognition:latest
 ```
 ## Download the data and preprocess it
 Download the data from [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php). The complete work is done on the subset of UCF101. Randomly 21 videos are selected from the complete dataset. 
