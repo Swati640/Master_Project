@@ -18,3 +18,18 @@ Download the data from [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php). The 
 ``` bash
 python generate_dataset.py
 ```
+## Make splits
+```bash
+python create_split.py  --save-dir datasets  --save-name splits --num-splits 5 --train-percent 0.8
+```
+As a result, the dataset is randomly split for 5 times, which are saved as json file. Train and test codes are written in `main.py`. To see the detailed arguments, please do `python main.py -h`.
+
+## How to train
+```bash
+python main.py --dataset datasets/UCF101.h5 -s datasets/UCF101.json --gpu 0
+```
+## Visualize summary
+You can use `summary2video.py` to transform the binary `machine_summary` to real summary video. You need to have a directory containing video frames. The code will automatically write summary frames to a video where the frame rate can be controlled.
+```bash
+python summary2video.py --path summe-split1/result.h5  --frm-dir ApplyEyeMakeup -i 1 --fps 7 --width 640 --height 480
+```
