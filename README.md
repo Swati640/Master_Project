@@ -42,7 +42,7 @@ The testing is done on the summarized videos.
 python test.py 
 ```
 
-
+![flowdiagram](https://user-images.githubusercontent.com/45712497/89311139-e7669980-d675-11ea-9d30-6e12ebc6468b.jpg)
 
 
 
