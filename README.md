@@ -32,7 +32,18 @@ python main.py --dataset datasets/UCF101.h5 -s datasets/UCF101.json --gpu 0
 You can use `summary2video.py` to transform the binary `machine_summary` to real summary video. You need to have a directory containing video frames. The code will automatically write summary frames to a video where the frame rate can be controlled.
 python train.py --dataset_path data/UCF-101-frame
 # Action Recognition of the summarized Video
-Action Recognition of network generated video summaries is done through a bi-directional LSTM operating on frame embeddings extracted by a pre-trained ResNet-152 (ImageNet). The python environment is `bash python 3.6`. The complete UCF-101 is used for training the network
+Action Recognition of network generated video summaries is done through a bi-directional LSTM operating on frame embeddings extracted by a pre-trained ResNet-152 (ImageNet). The python environment is `bash python 3.6`. The complete UCF-101 is used for training the network.
+## Set up for training on complete [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php)
+````
+bash 
+cd data/
+bash download_ucf101.sh     # Downloads the UCF-101 dataset (~7.2 GB)
+unrar x UCF101.rar          # Unrars dataset
+unzip ucfTrainTestlist.zip  # Unzip train / test split
+python3 extract_frames.py 
+````
+## Training
+
 ```bash
 python train.py --dataset_path data/UCF-101-frame
 ```
