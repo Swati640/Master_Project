@@ -63,7 +63,17 @@ python test.py
 ```
 
 ![flowdiagram](https://user-images.githubusercontent.com/45712497/89311139-e7669980-d675-11ea-9d30-6e12ebc6468b.jpg)
+## Steps
 
+- UCF-101 video dataset(subset) is used to generate the summarized videos.
+- Videos are converted to images
+- Images are passed through Resnet 152 to generate the features. Python 2.7 environment is used
+- Features are saved in H5 file
+- H5 file is passed through Deep summarization network to train the model to generate summarized videos. Python Environment is 3.6
+- Summarized model is used for testing and generating the “result.h5 file”, which is used to generate the summarized videos.
+- The summarized videos are converted into frames(this work is done on complete UCF-101 dataset)
+- Frames are passed through another network to train the model to do activity recognition.
+- The trained model is used for activity recognition. The accuracy is around 75%
 
 
 
